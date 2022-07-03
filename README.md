@@ -18,3 +18,7 @@ date pipes
 json pipe //javascript object leri stringe çeviririr
 
 <h4>{{myObj|json}}</h4>
+
+--currency--
+{{ product.price | currency:'\u20BA':"symbol":"2.2-2" }}
+tl olarak sembol ekler
